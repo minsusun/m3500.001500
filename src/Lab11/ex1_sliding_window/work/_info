@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window
+vact_shifter
+Z1 !s110 1684751613
+!i10b 1
+!s100 9EV;Wb5PjUz>F`]`?zLlG0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9iLdmDJ8jk:k=QfO8nkm?2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1684750370
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/act_shifter.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/act_shifter.v
+!i122 0
+L0 2 39
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1684751613.000000
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/act_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/act_shifter.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vbias_shifter
+R1
+!i10b 1
+!s100 4O<RjkSJ:ab_j9iUYBla_1
+R2
+I4HAkImlIn1dY6gW`2?O>R2
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bias_shifter.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bias_shifter.v
+!i122 1
+L0 3 54
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bias_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bias_shifter.v|
+!i113 1
+R7
+R8
+vbmp_image_writer
+R1
+!i10b 1
+!s100 UAZ`0gSE[8=YMSCh^CM>?3
+R2
+IFNoXa]]h<OSe3f5TB4C;i1
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bmp_image_writer.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bmp_image_writer.v
+!i122 2
+L0 3 141
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bmp_image_writer.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bmp_image_writer.v|
+!i113 1
+R7
+R8
+vbnorm_quant_act
+R1
+!i10b 1
+!s100 0jO;E`Vj0:gzg[dUQkXYd2
+R2
+IQ^_LeXRCXV<8IiIAkX5>20
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bnorm_quant_act.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bnorm_quant_act.v
+!i122 3
+L0 1 127
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bnorm_quant_act.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/bnorm_quant_act.v|
+!i113 1
+R7
+R8
+vconv_kern
+R1
+!i10b 1
+!s100 T7L5Oha7>fUE_;RF?6_ig3
+R2
+IAPS1NhAA[QOG1cl61:^^^1
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/conv_kern.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/conv_kern.v
+!i122 4
+L0 1 77
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/conv_kern.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/conv_kern.v|
+!i113 1
+R7
+R8
+vfirst_layer_tb
+R1
+!i10b 1
+!s100 3c3D@O6:MSdPFe2jkDc0[2
+R2
+IzIaG4L]8z0]?eJhzJokmc3
+R3
+R0
+w1684751046
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/first_layer_tb.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/first_layer_tb.v
+!i122 5
+L0 3 369
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/first_layer_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/first_layer_tb.v|
+!i113 1
+R7
+R8
+vmac
+R1
+!i10b 1
+!s100 f0PAA3mkTN>m68FT04fBH1
+R2
+IY6?Dog<`hT9j95j5IlY:H3
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac.v
+!i122 6
+L0 1 118
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac.v|
+!i113 1
+R7
+R8
+vmac_kern
+Z9 !s110 1684751614
+!i10b 1
+!s100 QDiRAfICmZP`4n87PBG@]0
+R2
+Il5Lf_6oHNifC>A9zGW8SG3
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac_kern.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac_kern.v
+!i122 7
+L0 1 120
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac_kern.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mac_kern.v|
+!i113 1
+R7
+R8
+vmul
+R9
+!i10b 1
+!s100 KoN4k^=_Zi5c_C?dSVgnJ1
+R2
+IPAc:jSBGhf^lK8Ojk?h210
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mul.v
+FC:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mul.v
+!i122 8
+L0 1 10
+R5
+r1
+!s85 0
+31
+!s108 1684751614.000000
+!s107 C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mul.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Lab11/ex1_sliding_window/mul.v|
+!i113 1
+R7
+R8

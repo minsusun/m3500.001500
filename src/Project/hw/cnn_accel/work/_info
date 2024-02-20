@@ -1,0 +1,586 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/root/desktop/garbage/project/hw/cnn_accel
+vact_shifter
+Z1 !s110 1687420319
+!i10b 1
+!s100 kTzMmM?Nf:l`e=L3`D_cK2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iz^1CN67[9<T7l]BOk[`@h0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1686835715
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/act_shifter.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/act_shifter.v
+!i122 53
+L0 3 39
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1687420318.000000
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/act_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/act_shifter.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vahb_bram
+R1
+!i10b 1
+!s100 ZTe;o@;RlNUP8i@9mRocQ0
+R2
+IYh_HCj6TU^BC[PI0=7_?L1
+R3
+R0
+Z8 w1686835716
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_bram.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_bram.v
+!i122 54
+L0 2 124
+R5
+r1
+!s85 0
+31
+Z9 !s108 1687420319.000000
+!s107 amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_bram.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_bram.v|
+!i113 1
+R6
+R7
+vahb_lite_input_stage
+R1
+!i10b 1
+!s100 e;E2Ba74YEKZlh[6VY7NX2
+R2
+I0aFKY:>DDD?3Ql0P6Y6X?3
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_input_stage.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_input_stage.v
+!i122 55
+L0 11 264
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_decoder_h.v|amba_ahb_arbiter_h.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_input_stage.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_input_stage.v|
+!i113 1
+R6
+R7
+vahb_lite_interconnect
+R1
+!i10b 1
+!s100 =Ge?eT2ZLka1;`Ci>52da0
+R2
+ILfU`ACX0ShU018I<KOG9=2
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_interconnect.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_interconnect.v
+!i122 56
+L0 18 221
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_decoder_h.v|amba_ahb_arbiter_h.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_interconnect.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_interconnect.v|
+!i113 1
+R6
+R7
+vahb_lite_transactor
+R1
+!i10b 1
+!s100 Vm>Xe92VaL^[M1`4;CmMX0
+R2
+IKhdU5J9WcQC5dTA^WPEQ?1
+R3
+R0
+R4
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_transactor.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_transactor.v
+!i122 57
+L0 13 232
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_transactor.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_lite_transactor.v|
+!i113 1
+R6
+R7
+vahb_master
+R1
+!i10b 1
+!s100 :RT6BbhZnCXdUYfTR@EcI2
+R2
+Ia@F:?L8lgc4@F6i_MT>`L3
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_master.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_master.v
+!i122 58
+L0 2 153
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_master.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/ahb_master.v|
+!i113 1
+R6
+R7
+vamba_ahb_decoder
+R1
+!i10b 1
+!s100 UadH4I;]W4HXBgf_Ji?zS2
+R2
+I0agfeVEa1hOW1=WG6<a[E1
+R3
+R0
+Z10 w1686835721
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_decoder.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_decoder.v
+!i122 59
+L0 14 86
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_decoder_h.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_decoder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_decoder.v|
+!i113 1
+R6
+R7
+vamba_ahb_lite_arbiter
+Z11 !s110 1687420320
+!i10b 1
+!s100 NeB55_abb9Dj?il[n@<[k3
+R2
+IMDm@[=nL^Fjk<zk<oOzZD0
+R3
+R0
+Z12 w1686835720
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_lite_arbiter.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_lite_arbiter.v
+!i122 60
+L0 9 342
+R5
+r1
+!s85 0
+31
+R9
+!s107 amba_ahb_arbiter_h.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_lite_arbiter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_ahb_lite_arbiter.v|
+!i113 1
+R6
+R7
+vamba_lite_output_stage
+R11
+!i10b 1
+!s100 ln:QRP4APjo?<7IaKGD6F3
+R2
+Ia7`Dn<FD;6Ea<jbY8<Vof2
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_lite_output_stage.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_lite_output_stage.v
+!i122 61
+L0 7 125
+R5
+r1
+!s85 0
+31
+Z13 !s108 1687420320.000000
+!s107 amba_ahb_arbiter_h.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_lite_output_stage.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/amba_lite_output_stage.v|
+!i113 1
+R6
+R7
+vbias_shifter
+R11
+!i10b 1
+!s100 B_Nl3lX?d<ogRDLQ8^h770
+R2
+ILCi[lkiz2MF5WKiY5e4b_3
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bias_shifter.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bias_shifter.v
+!i122 62
+L0 3 54
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bias_shifter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bias_shifter.v|
+!i113 1
+R6
+R7
+vbmp_image_writer
+R11
+!i10b 1
+!s100 UAZ`0gSE[8=YMSCh^CM>?3
+R2
+I^`?k]0SFc8e^:[^kJ92`o1
+R3
+R0
+R12
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer.v
+!i122 63
+L0 3 141
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer.v|
+!i113 1
+R6
+R7
+vbmp_image_writer_2x
+R11
+!i10b 1
+!s100 e>F=[J9C;9Zn<akm5d;dO3
+R2
+I1;b8eCnCnhd4>T@A9Tok`0
+R3
+R0
+w1687067598
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer_2x.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer_2x.v
+!i122 64
+L0 3 162
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer_2x.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bmp_image_writer_2x.v|
+!i113 1
+R6
+R7
+vbnorm_quant_act
+R11
+!i10b 1
+!s100 ]o2j1OShZ6]FVJQJkML<10
+R2
+IKPcGACLohH2WiO@9W5zJY3
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bnorm_quant_act.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bnorm_quant_act.v
+!i122 65
+L0 3 136
+R5
+r1
+!s85 0
+31
+R13
+!s107 debug.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bnorm_quant_act.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bnorm_quant_act.v|
+!i113 1
+R6
+R7
+vbram
+R11
+!i10b 1
+!s100 g_E:@eZLi5MfIQj9hBJAk0
+R2
+IJ^?5e>Xjd6a9cVDMNi@;I2
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bram.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bram.v
+!i122 66
+Z14 L0 1 45
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bram.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/bram.v|
+!i113 1
+R6
+R7
+vcnn_accel
+!s110 1687592312
+!i10b 1
+!s100 R57]G1HBCB[2fkGzQS2oD0
+R2
+Ic0`ab0j2Clh`oG<Qe:_jK3
+R3
+R0
+w1687592304
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_accel.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_accel.v
+!i122 79
+L0 4 965
+R5
+r1
+!s85 0
+31
+!s108 1687592312.000000
+!s107 debug.v|map.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_accel.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_accel.v|
+!i113 1
+R6
+R7
+vcnn_fsm
+Z15 !s110 1687420321
+!i10b 1
+!s100 kKGzA@RYFY=obQbM5[MVz1
+R2
+IR_fhlK8XPcYPVg19OR1bI3
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_fsm.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_fsm.v
+!i122 68
+L0 3 203
+R5
+r1
+!s85 0
+31
+Z16 !s108 1687420321.000000
+!s107 map.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_fsm.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/cnn_fsm.v|
+!i113 1
+R6
+R7
+vconv_kern
+R15
+!i10b 1
+!s100 T7L5Oha7>fUE_;RF?6_ig3
+R2
+IjbL[K@[4Q_80a`F?cG?4I1
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/conv_kern.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/conv_kern.v
+!i122 69
+L0 1 77
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/conv_kern.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/conv_kern.v|
+!i113 1
+R6
+R7
+vdma2buf
+R15
+!i10b 1
+!s100 iIa4UI[SDJONoa;2Xm@9E1
+R2
+I4X<12[^C4:[jDUDCLE6hI2
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dma2buf.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dma2buf.v
+!i122 70
+L0 12 349
+R5
+r1
+!s85 0
+31
+R16
+!s107 amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dma2buf.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dma2buf.v|
+!i113 1
+R6
+R7
+vdpram
+R15
+!i10b 1
+!s100 9Y10W>;<IAAGHRCTZ[:1l1
+R2
+IV]>CoECNLKYMR_h8`e9;Q1
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dpram.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dpram.v
+!i122 71
+L0 1 84
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dpram.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/dpram.v|
+!i113 1
+R6
+R7
+vmac
+R15
+!i10b 1
+!s100 f0PAA3mkTN>m68FT04fBH1
+R2
+ISSNUDAVT7lCciBiGIDT5:0
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac.v
+!i122 72
+L0 1 118
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac.v|
+!i113 1
+R6
+R7
+vmac_kern
+R15
+!i10b 1
+!s100 QDiRAfICmZP`4n87PBG@]0
+R2
+Ij]8o1UT6eL7iF^o]@4:nd1
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac_kern.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac_kern.v
+!i122 73
+L0 1 120
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac_kern.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mac_kern.v|
+!i113 1
+R6
+R7
+vmul
+Z17 !s110 1687420322
+!i10b 1
+!s100 KoN4k^=_Zi5c_C?dSVgnJ1
+R2
+Ic6ZB@_LF0_4iVJ<U_MeZX1
+R3
+R0
+R8
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mul.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mul.v
+!i122 74
+L0 1 10
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mul.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/mul.v|
+!i113 1
+R6
+R7
+vspram
+R17
+!i10b 1
+!s100 ]Jl[`>SFh0WE[WOO2>==W0
+R2
+IF10kY=Ca=2dh>aATM]gBU3
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/spram.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/spram.v
+!i122 75
+R14
+R5
+r1
+!s85 0
+31
+Z18 !s108 1687420322.000000
+!s107 C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/spram.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/spram.v|
+!i113 1
+R6
+R7
+vtop_system
+R17
+!i10b 1
+!s100 H2b_:j2bF;>ebF:9T8f[i2
+R2
+Ij1PB5mLf>QYWA0W=a33D13
+R3
+R0
+R10
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system.v
+!i122 76
+L0 4 354
+R5
+r1
+!s85 0
+31
+R18
+!s107 map.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system.v|
+!i113 1
+R6
+R7
+vtop_system_tb
+R17
+!i10b 1
+!s100 J:4C:dUPiPF9@b=3:kTT[3
+R2
+IC<[DeE82d@CU6m@Fn7kOd3
+R3
+R0
+w1687019461
+8C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system_tb.v
+FC:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system_tb.v
+!i122 77
+L0 5 327
+R5
+r1
+!s85 0
+31
+R18
+!s107 debug.v|map.v|amba_ahb_h.v|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/root/Desktop/garbage/Project/hw/cnn_accel/top_system_tb.v|
+!i113 1
+R6
+R7
